@@ -8,11 +8,12 @@
 # My sources say no.
 # Outlook not so good.
 # Very doubtful.
+
+import random
  
 name = "IDIOT"
 question = "Am I good at Python yet?"
-
-import random
+answer = ""
 random_number = random.randint(1,11)
 
 
@@ -46,5 +47,7 @@ if name == "":
 else:
   print(name + " asks: " + question)
 
-
-print("Magic 8-Ball says: " + answer)
+if question == "":
+  print("Ask a question!")
+else:
+  print("Magic 8-Ball says: " + answer)
