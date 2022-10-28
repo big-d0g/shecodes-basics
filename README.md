@@ -15,4 +15,4 @@ Coursework from the <a href="https://www.shecodes.io/workshop">SheCodes Basics</
 
 #### Final Project:
 
-A simple landing page of a preferred subject, using all of the above elemments.
+A simple landing page of a preferred subject, using all of the above elements.
